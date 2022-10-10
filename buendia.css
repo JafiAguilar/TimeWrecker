@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-image: url(https://img.freepik.com/fotos-premium/banner-ocultar-cachorro-perro-sorprendido-divertido-aislado-amarillo_77749-307.jpg?w=2000);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    width: 50%;
+    margin: 100px auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.contenedor-list{
+    text-align: center;
+    overflow: hidden;
+    width: 650px;
+    height: 130px;
+}
+
+.contenedor-list >ul{
+    list-style-type: none;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor-list > ul > li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(30, 226, 128);
+    text-shadow: 4px 4px 7px gray;
+}

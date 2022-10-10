@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 38px;
+    background: url(https://www.cuentocolectivo.com/wp-content/uploads/2015/06/callejon-oscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    color: rgb(244, 37, 248) ;
+}
+
+header{
+    display: flex; 
+    min-height: 70px;
+    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+.img{
+    width: 350px;
+    height: 200px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.texto-justificado{
+    text-align: justify;
+    }

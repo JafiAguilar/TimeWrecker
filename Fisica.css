@@ -1,0 +1,50 @@
+body{
+    padding: 38px;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-azul-verde-abstracto-fondo-degradado-naturaleza-ventana-helada-vector_88211-2926.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(17, 40, 121);
+}
+
+nav a:hover{
+    color: rgb(249, 162, 41) ;
+}
+
+header{
+    display: flex; 
+    min-height: 70px;
+    background-color: rgb(109, 40, 158);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+.img{
+    width: 350px;
+    height: 200px;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.texto-justificado{
+    text-align: justify;
+    }
